@@ -1,0 +1,7 @@
+name = input("enter your name?")
+age = input("how old are you?")
+city = input("which city are you from?")
+print("\n welcome", name+ "!")
+print(f"you are {age} years old.")
+print(f"you are from {city}.")
+print("Thank you for sharing your details!")
