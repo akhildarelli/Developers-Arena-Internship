@@ -1,0 +1,22 @@
+Test Case 1:
+Name: Akhil
+Marks: 80
+Expected Grade: B
+
+Test Case 2:
+Name: Rahul
+Marks: 95
+Expected Grade: A
+
+Test Case 3:
+Name: Anu
+Marks: 55
+Expected Grade: F
+
+Test Case 4:
+Marks: -5
+Expected Output: Invalid input message
+
+Test Case 5:
+Marks: abc
+Expected Output: Numeric value warning
