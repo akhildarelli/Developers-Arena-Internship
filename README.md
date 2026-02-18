@@ -1,35 +1,60 @@
-# Developers Arena Internship – Week 2
+# Customer Sales Analysis
 
-# Project Title
-Student Grade Calculator
+## Project Overview
+This project analyzes customer purchasing behavior using sales data. The goal is to identify top customers, best-selling products, regional performance, and monthly sales trends. The analysis helps derive actionable business insights that can support decision-making in sales and marketing strategies.
 
-# Project Overview
-This project calculates a student's grade based on marks using Python decision-making and looping concepts.
+## Objectives
+- Analyze customer contribution to total revenue
+- Identify best-selling products and regions
+- Understand monthly sales trends
+- Present insights using visualizations
 
-# Objectives
- Use if-elif-else conditions
- Implement functions
- Validate user input
- Use loops for error handling
+## Dataset
+- sales_data.csv: Contains sales transactions including product, region, quantity, price, and date
+- customer_data.csv: Contains customer-level information
 
-# Technologies Used
- Python 3
- Visual Studio Code
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- VS Code
 
-# How to Run
-1. Open folder in VS Code
-2. Run grade_calculator.py
-3. Enter student name and marks
+## Project Structure
 
-# Grading Logic
-- A: 90–100
-- B: 80–89
-- C: 70–79
-- D: 60–69
-- F: Below 60
+week5customeranalysis/
+│
+├── data/
+│   ├── sales_data.csv
+│   └── customer_data.csv
+│
+├── notebooks/
+│   └── customer_analysis.ipynb
+│
+├── report/
+│
+├── README.md
+└── requirements.txt
 
-# Learning Outcome
- Decision making in Python
- Input validation
- Function usage
- Loop control
+## Key Analysis Performed
+- Data cleaning and preparation
+- Feature engineering (year, month extraction)
+- Customer sales aggregation
+- Product and regional analysis
+- Pivot table creation
+- Data visualization (bar charts, line charts)
+
+## Visualizations
+- Total Sales by Product
+- Total Sales by Region
+- Monthly Sales Trend
+
+## Insights
+- A small group of customers contributes a significant portion of total revenue.
+- Laptop products generate the highest sales.
+- Certain regions dominate overall sales performance.
+- Monthly trends help identify seasonal patterns.
+
+## Conclusion
+This project demonstrates an end-to-end data analysis workflow using Python and Pandas. It combines data manipulation, visualization, and business insight generation in a structured and professional manner.
+
